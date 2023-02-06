@@ -1,10 +1,17 @@
 # HTML5
 
-El documento HTML es un documento de texto que esta dividido en dos partes: - `<!DOCTYPE html>` : tipo de documento para facilitar al navegador. - `<html></html>` : donde se añaden todas las etiquetas.
+El documento HTML es un documento de texto que está dividido en dos partes:
+
+- `<!DOCTYPE html>` : tipo de documento para facilitar al navegador.
+- `<html></html>` : donde se añaden todas las etiquetas.
 
 # _display_
 
-Las etiquetas pueden ser de tipo : - **block**: como los `<div>` - **inline** : como los `<span>` si se define un alto / ancho el elemento lo ignorara porque es un elemento en línea. - **inline-block**: se trata de un elemento en línea al que sí se puede editar en alto y ancho.
+Las etiquetas pueden ser de tipo :
+
+- **block**: como los `<div>`
+- **inline** : como los `<span>` si se define un alto / ancho el elemento lo ignorará porque es un elemento en línea.
+- **inline-block**: se trata de un elemento en línea al que sí se puede editar en alto y ancho.
 
 # _Atributos_ comunes para todas las etiquetas
 
@@ -100,11 +107,12 @@ Las etiquetas pueden ser de tipo : - **block**: como los `<div>` - **inline** : 
   - _placeholder_: texto escrito hasta que se pincha.
 
 - `<select>`
-  `html
- <select name="">
-	<option value="..."> Opción 1 </option>
-	<option value="..." selected> Opción 2 </option>
-</select>`
+  ```html
+  <select name="">
+    <option value="...">Opción 1</option>
+    <option value="..." selected>Opción 2</option>
+  </select>
+  ```
 - `<button>`
 
 # Scripts
@@ -125,6 +133,6 @@ Las etiquetas pueden ser de tipo : - **block**: como los `<div>` - **inline** : 
 # SEMÁNTICA
 
 - `<article>` : tiene suficiente importancia de contenido.
-  - `<header>`
+  - `<header>` : encabezado
   - `<section>` : una parte de la web.
-  - `<footer>`
+  - `<footer>` : pie de pág. o contenido de contacto.
