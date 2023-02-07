@@ -1,11 +1,28 @@
 # HTML5
 
+**ÍNDICE:**
+
+1. [Etiquetas principales](#id1)
+2. [`display`](#id2)
+3. [Atributos comunes para todas las etiquetas](#id3)
+4. [Etiquetas del _head_](#id4)
+5. [Etiquetas de agrupación](#id5)
+6. [Etiquetas textuales](#id6)
+7. [Etiquetas multimedias](#id7)
+8. [Etiquetas multimedias alternativas](#id8)
+9. [Formularios](#id8)
+10. [Scripts](#id10)
+11. [Acordeón](#id11)
+12. [Semántica](#id12)
+
+# 1.Etiquetas principales<a name="id1"></a>
+
 El documento HTML es un documento de texto que está dividido en dos partes:
 
 - `<!DOCTYPE html>` : tipo de documento para facilitar al navegador.
 - `<html></html>` : donde se añaden todas las etiquetas.
 
-# _display_
+# 2. _display_ <a name="id2"></a>
 
 Las etiquetas pueden ser de tipo :
 
@@ -13,7 +30,7 @@ Las etiquetas pueden ser de tipo :
 - **inline** : como los `<span>` si se define un alto / ancho el elemento lo ignorará porque es un elemento en línea.
 - **inline-block**: se trata de un elemento en línea al que sí se puede editar en alto y ancho.
 
-# _Atributos_ comunes para todas las etiquetas
+# 3. _Atributos_ comunes para todas las etiquetas <a name="id3"></a>
 
 - id
 - class
@@ -21,14 +38,14 @@ Las etiquetas pueden ser de tipo :
 - title: para los tooltip (cuando se pone el ratón por encima).
 - data-role: un meta dato que no aparece en la pág. web pero si utilizar en JS.
 
-# Etiquetas del _head_
+# 4. Etiquetas del _head_ <a name="id4"></a>
 
 - `<title>`
 - `<link>`
 - `<meta>` : manda información meta que usa el navegador
   - ` <meta charset="UTF-8" />` Codificación del documento
 
-# Etiquetas de agrupación
+# 5. Etiquetas de agrupación <a name="id5"></a>
 
 - `<p>`
 - `<hr>` : cambio de tema entre párrafos (una línea horizontal pero se puede ocultar o cambiar)
@@ -36,7 +53,7 @@ Las etiquetas pueden ser de tipo :
   - ordenada: `<ol>`
   - desordenadas: `<ul>`
 
-# Etiquetas textuales
+# 6. Etiquetas textuales <a name="id6"></a>
 
 - enlaces: `<a href="https://..."> ... </a>`
 - `<p>`
@@ -45,7 +62,7 @@ Las etiquetas pueden ser de tipo :
   - `<span>`
   - `<mark>`
 
-# Etiquetas multimedia
+# 7. Etiquetas multimedia <a name="id7"></a>
 
 - imágenes: `<img src="imagen.jpg" alt="texto">`
   - src: ruta de la imagen.
@@ -60,7 +77,7 @@ Las etiquetas pueden ser de tipo :
 			autoplay loop muted controls>
 </audio>`
 
-# Etiquetas multimedia alternativa
+# 8. Etiquetas multimedia alternativa <a name="id8"></a>
 
 - Varias alternativas de fuente:
   - ````<video>
@@ -75,7 +92,7 @@ Las etiquetas pueden ser de tipo :
     	</iframe>
     ```
 
-# Formularios
+# 9. Formularios <a name="id9"></a>
 
 - `<input>`:
 
@@ -115,13 +132,13 @@ Las etiquetas pueden ser de tipo :
   ```
 - `<button>`
 
-# Scripts
+# 10. Scripts <a name="id10"></a>
 
 - `<script src="index.js"> .... <script/>`
   - **src**: añadir la ruta de un archivo js.
 - `<noscript> ... </noscript>` : para los usuarios que tienen JS desactivado.
 
-# Acordeón
+# 11. Acordeón <a name="id11"></a>
 
 ```html
 <details>
@@ -130,7 +147,7 @@ Las etiquetas pueden ser de tipo :
 </details>
 ```
 
-# SEMÁNTICA
+# 12. SEMÁNTICA <a name="id12"></a>
 
 - `<article>` : tiene suficiente importancia de contenido.
   - `<header>` : encabezado
