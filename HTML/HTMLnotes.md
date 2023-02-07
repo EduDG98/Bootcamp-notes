@@ -80,17 +80,19 @@ Las etiquetas pueden ser de tipo :
 # 8. Etiquetas multimedia alternativa <a name="id8"></a>
 
 - Varias alternativas de fuente:
-  - ````<video>
-    		<source = "...">
-    		<source = "...">
-    		<img ... >
-    	</video>```
-    ````
+  ```html
+  <video>
+    <source ="..." />
+    <source ="..." />
+    <img ... />
+  </video>
+  ```
 - Poner contenido de una página web (youtube, google maps, facebook, twitter, ...):
-  - ```<iframe>
+  ```html
+      <iframe>
     		<src = "...">
     	</iframe>
-    ```
+  ```
 
 # 9. Formularios <a name="id9"></a>
 
