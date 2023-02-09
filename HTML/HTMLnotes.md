@@ -42,6 +42,7 @@ Las etiquetas pueden ser de tipo :
 
 - `<title>`
 - `<link>`
+  - <u>**Ejemplo:**</u> `<link rel="stylesheet" href="css/index.css">`
 - `<meta>` : manda información meta que usa el navegador
   - ` <meta charset="UTF-8" />` Codificación del documento
 
