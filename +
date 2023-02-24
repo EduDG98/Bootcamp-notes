@@ -1,0 +1,26 @@
+corregir y completar todos los apuntes
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Fri Feb 24 21:05:38 2023 +0000
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   1.PrincipiosBasicos-Git.md
+#	modified:   2.git-remote-SSH.md
+#	modified:   3.0.git-commit.md
+#	new file:   3.1.git-stash.md
+#	modified:   5.git-fetch.md
+#	modified:   6.git-pull.md
+#	renamed:    7.git-branch.md -> 7.0.git-branch.md
+#	new file:   7.1.git-flow.md
+#	renamed:    8.git-merge.md -> 8.0.git-merge.md
+#	renamed:    3.1.git-rebase.md -> 8.1.git-rebase.md
+#	new file:   8.2.git-squash.md
+#	new file:   9.0.pull-request.md
+#	renamed:    9.git-clone.md -> 9.1.git-clone.md
+#	new file:   9.2.alias.md
+#
