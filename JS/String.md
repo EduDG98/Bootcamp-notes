@@ -1,0 +1,39 @@
+# Strings ⛓
+
+# Métodos de Strings
+
+- `split()` --> devuelve un _array_ con los caracteres separados por donde se indica.
+- `replace()`
+- `slice() ` --> corta la string
+- `concat()`
+- `includes()`
+
+- `indexOf(char)` --> la primera ocurrencia del _char_ especificado.
+  - `indexOf(char, n)` --> la primera ocurrencia del _char_ especificado, a partir de la posición _n_
+- `lastIndexOf(char)` --> la última ocurrencia del _char_ especificado.
+- `charAt()`
+- `replace(char1, char2)` --> reemplaza el _char1_ por el _char2_.
+
+  - `replaceAll()`
+
+- `startWith()`
+- `endWith()`
+- `repeat()`
+- `substring(n)` --> los nº apuntan a los huecos entre las letras.
+
+  - `substring(n, n)`
+
+- `toLowerCase()`
+- `toUpperrCase()`
+- `trim()` --> quita el espacio en blanco al principio y al final
+  - `trimLeft()`
+  - `trimRight()`
+
+# String templates
+
+- Para concatenar _strings_ con otras _strings_ o variables se usa las **_backticks_**
+- <u>Ejemplo:</u>
+  ```js
+  const name = "Jhon";
+  console.log(`Hey ${name}, say hi!`);
+  ```

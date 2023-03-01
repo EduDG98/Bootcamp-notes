@@ -1,0 +1,146 @@
+# Clases 🪀
+
+**ÍNDICE**
+
+1. [Contructor](#constructor)
+   1. [Propiedades privadas](#privada)
+2. [_getter_ & _setter_](#getter)
+3. [Métodos estáticos](#metodos)
+   1. [Atributos estáticos](#atributos)
+4. [Herencia](#herencia)
+
+- Los nombres siempre va en mayúsculas
+- Dentro de la clase está el constructor.
+
+## Constructor<a name='constructor'></a>
+
+- El constructor se ejecuta siempre que se crea una instancia (objecto) de la misma clase.
+- Se definen las propiedades dentro del contructor, para asociarlas al crear un obj. de la misma clase.
+
+  - <u>Ejemplo:</u>
+
+    ````js
+    		class Enemigo {
+    			constructor (n = Skeleton, l = 10) {
+    				this.name = n;
+    				this.level = l;
+    			}
+    		}
+    		const enemyZombie = new Enemy('Zombie', 25);
+    		enemyZombie.name; // Zombie
+
+    		const enemy = new Enemy();
+    		enemy.name; // Skeleton
+    	```
+    ````
+
+- Se puede defeinir las _props._ fuera del constructor:
+
+  - <u>Ejemplo:</u>
+    ```js
+    class Enemigo {
+      name = "Skeleton";
+      level = 10;
+      constructor() {}
+    }
+    ```
+    > Si el constructor está vacío se puede quitar.
+  - <u>Ejemplo:</u>
+    ```js
+    class Enemigo {
+      name;
+      level;
+      constructor(n, l) {
+        this.name = n;
+        this.level = l;
+      }
+    }
+    ```
+
+- ## Definir propiedades privadas <a name='privada'></a>
+  - Con la `#`
+  - <u>Ejemplo:</u>
+    ```js
+    class Enemigo {
+      name = "Skeleton";
+      #level = 10;
+      constructor() {}
+    }
+    ```
+
+# getter & setter<a name='getter'></a>
+
+- <u>Ejemplo:</u>
+
+  ```js
+  class Enemigo {
+    name = "Skeleton";
+    level = 10;
+
+    setLife(newLife) {
+      this.life = newLife;
+    }
+
+    getLife() {
+      return "♥".repeat(this.life);
+    }
+  }
+  ```
+
+# Métodos estáticos<a name='metodos'></a>
+
+- Son métodos de la clase.
+- No de la instancia creada a partir de la clase.
+- <u>Ejemplo:</u>
+
+  ```js
+  class Enemigo {
+    name = "Skeleton";
+    level = 10;
+
+    static type() {
+      return "hostil";
+    }
+  }
+
+  const enemy = new Enemigo();
+  enemy.name; // Skeleton
+  enemy.type(); // undefined
+
+  Enemigo.name; // undefined
+  Enemigo.type(); // hostil
+  ```
+
+## Atributos estáticos <a name='atributos'></a>
+
+- Se puede hacer lo mismo con los atributos.
+
+> [!Nota]
+> El Objecto JS **_Math_** es una clase.
+> Tiene métodos estáticos como `random()`
+> Y atributos estáticos como `PI`
+
+# Herencia<a name='herencia'></a>
+
+- Se usa la palabra reservada `extends` para que una clase herede de otra.
+- Usamos la palabra reservada `super()` dentro de la clase hijo, para referirnos a la clase padre.
+
+  - <u>Ejemplo:</u>
+
+    ```js
+    class Enemigo {
+      name = "Skeleton";
+      level = 10;
+    }
+
+    class Spectro {
+      constructor(l) {
+        super("Skeleton", l);
+      }
+    }
+    ```
+
+## Herencia de métodos
+
+- Si el padre tiene un método, el hijo lo hereda.
+- Los métodos en el padre se puede sobreescribir en el hijo.
