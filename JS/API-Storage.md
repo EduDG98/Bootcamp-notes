@@ -1,9 +1,9 @@
-# Storage 🍪
+# API Storage 🍪
 
 - Es una fomra de almacenamiento web.
 - Hay dos tipos de almacenamiento / _Storage_:
   - **_session_** --> la información alamacenada se eleimina al terminar la sesión de la pág. web.
-  - \***\*local\*\*** --> a información alamacenada se eleimina cuando uno quiere.
+  - **_local_** --> a información alamacenada se eleimina cuando uno quiere.
 
 # Métodos:
 
@@ -15,7 +15,7 @@
 
 # _Local Storage_ & _Session Storage_
 
-- Es un Objeto Storage.
+- Es un Objeto _Storage_.
 - <u>Ejemplo:</u>
   ```js
   localStorage.setItem("accepted", true);
